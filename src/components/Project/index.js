@@ -13,9 +13,10 @@ return(
 <div className="project-text">
     <h3>
         <a href={link}>{name}</a>{' '}
-        <a href={repo}><i className="fab fa-github"></i></a>
+        {/* <a href={repo}><i className="fab fa-github"></i></a> */}
     </h3>
     <p>{description}</p>
+    <a href={repo}>Repository link: {repo}</a>
     
 </div>
 </div>
